@@ -1,0 +1,64 @@
+import balok
+
+def main():
+    p = 8
+    l = 6
+    t = 4
+    
+    luas = balok.LuasBalok(p, l ,t)
+    
+    print("LUAS BALOK")
+    print("Panjang\t: ", p)
+    print("lebar\t: ", l)
+    print("tinggi\t: ", t)
+    print("luas permukaan\t: ", luas)
+    
+    p = 6 
+    l = 4
+    t = 8
+    
+    volume = balok.volume(p, l , t)
+    
+    print("\nVOLUME BALOK")
+    print("panjang\t: ", p)
+    print("lenar\t: ", l)
+    print("volume\t: ", volume)
+    
+    v = 25
+    l = 10
+    t = 5
+    
+    panjang = balok.panjang(v, l, t)
+    
+    print("\nPANJANG")
+    print("volume\t: ", v)
+    print("lebar\t: ", l)
+    print("tinggi\t: ", t)
+    print("panjang\t: ", panjang)
+    
+    v = 25
+    p = 12
+    t = 8
+    
+    lebar = balok.lebar(v,p,t)
+    
+    print("\nLEBAR")
+    print("volume\t: ", v)
+    print("panjang\t: ", p)
+    print("tinggi\t = ", t)
+    print("lebar\t = ", lebar)
+    
+    v = 25
+    p = 12
+    l = 10
+    
+    tinggi = balok.tinggi(v, p , l)
+    
+    print("\nLEBAR")
+    print("volume\t: ", v)
+    print("panjang\t: ", p)
+    print("lebar\t = ", lebar)
+    print("tinggi\t = ", tinggi)
+    
+if __name__ == "__main__":
+   main()
